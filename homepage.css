@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+}
+
+.Navlist{
+    flex: 1;
+    text-align: right;
+
+}
+
+.Navlist ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.Navlist ul li a {
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.Navlist ul li::after{
+content: '';
+width: 0%;
+height: 3px;
+background:rgba(15, 15, 15, 0.705);
+display: block;
+margin: auto;
+transition: 1s;
+
+}
+
+
+.top{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-975f715a64fceda008caa8363da29a45-lq");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+
+}
+
+.Navlist ul li:hover::after{
+    width: 100%;
+
+}
+.entry{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+
+.entry h1{
+    font-size: 50px;
+}
+.entry p{
+    margin: 10px 0 40px;
+    color: black;
+}
+.clubz{
+    position: relative;
+    font-size: 14PX;
+    background: grey ;
+    border-radius: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    padding: 13px 53px;
+    
+   
+    
+    
+}
+.clubz:hover{
+    background: black;
+    transition: 0.5s;
+}
+
+
+
+
+.class{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.front{
+    flex-basis: 32%;
+    border-radius: 10px;
+    width: 40vw; 
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 30%;
+}
+
+.front img{
+    width: 100%;
+    transition: 0.6s;
+    cursor: pointer;
+}  
+
+.layer{
+    background-color: transparent ;
+    height: 100%;
+    width: 100%;
+    padding-left: 30%;
+    position: absolute;
+    top: 0%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(15, 15, 15, 0.705);
+    opacity: 0.7;
+   
+}
+
+
+{
+    .entry h1{
+        font-size: 20px;
+    }
+      
+}
