@@ -41,11 +41,16 @@ transition: 1s;
 
 }
 
+.Navlist ul li:hover::after{
+    width: 100%;
+
+}
+
 
 .top{
     min-height: 100vh;
     width: 100%;
-    background-image: url("https://qph.cf2.quoracdn.net/main-qimg-975f715a64fceda008caa8363da29a45-lq");
+    background-image: url("https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -53,10 +58,7 @@ transition: 1s;
 
 }
 
-.Navlist ul li:hover::after{
-    width: 100%;
 
-}
 .entry{
     width: 90%;
     color: black;
@@ -104,7 +106,7 @@ transition: 1s;
     padding-top: 100px;
 }
 h1{
-    font-size: 36px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -142,9 +144,7 @@ h1{
 }
 
 
-{
+
     .entry h1{
         font-size: 20px;
     }
-      
-}
